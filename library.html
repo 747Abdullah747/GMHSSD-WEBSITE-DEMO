@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library - Green Model HSS</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background: #f5f5f5;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .library-section {
+      padding: 60px 0;
+    }
+
+    .book-card {
+      transition: transform 0.3s;
+    }
+
+    .book-card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card-img-top {
+      height: 300px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Green Model HSS</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item active"><a class="nav-link" href="library.html">Library</a></li>
+        <li class="nav-item"><a class="nav-link" href="attendance.html">Attendance</a></li>
+        <li class="nav-item"><a class="nav-link" href="teachers.html">Teachers</a></li>
+        <li class="nav-item"><a class="nav-link" href="fees.html">Fees</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="library-section">
+    <div class="container">
+      <h2 class="text-center mb-5">Library Catalog</h2>
+      <div class="row">
+
+        <!-- Sample Book Cards -->
+        <div class="col-md-4 mb-4">
+          <div class="card book-card">
+            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1586722975i/2767052.jpg" class="card-img-top" alt="The Hunger Games">
+            <div class="card-body">
+              <h5 class="card-title">The Hunger Games</h5>
+              <p class="card-text">by Suzanne Collins</p>
+              <span class="badge badge-success">Available</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card book-card">
+            <img src="https://m.media-amazon.com/images/I/81q77Q39nEL.jpg" class="card-img-top" alt="Harry Potter">
+            <div class="card-body">
+              <h5 class="card-title">Harry Potter and the Sorcerer's Stone</h5>
+              <p class="card-text">by J.K. Rowling</p>
+              <span class="badge badge-secondary">Leased</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card book-card">
+            <img src="https://m.media-amazon.com/images/I/81yApSxM51L.jpg" class="card-img-top" alt="Caraval">
+            <div class="card-body">
+              <h5 class="card-title">Caraval</h5>
+              <p class="card-text">by Stephanie Garber</p>
+              <span class="badge badge-success">Available</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- More Books -->
+        <div class="col-md-4 mb-4">
+          <div class="card book-card">
+            <img src="https://m.media-amazon.com/images/I/91bxBYl307L._UF1000,1000_QL80_.jpg" class="card-img-top" alt="Divergent">
+            <div class="card-body">
+              <h5 class="card-title">Divergent</h5>
+              <p class="card-text">by Veronica Roth</p>
+              <span class="badge badge-warning">Sold</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card book-card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/b/be/The_Maze_Runner_poster.jpg" class="card-img-top" alt="Maze Runner">
+            <div class="card-body">
+              <h5 class="card-title">The Maze Runner</h5>
+              <p class="card-text">by James Dashner</p>
+              <span class="badge badge-success">Available</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card book-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQVwwFXcuI8F4nJiPnSRd9l7WqmShgjIH24w&s" class="card-img-top" alt="Percy Jackson">
+            <div class="card-body">
+              <h5 class="card-title">Percy Jackson and the Lightning Thief</h5>
+              <p class="card-text">by Rick Riordan</p>
+              <span class="badge badge-secondary">Leased</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center p-3">
+    <p>&copy; 2025 Green Model Higher Secondary School, Doda</p>
+  </footer>
+</body>
+
+</html>
